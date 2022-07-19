@@ -15,7 +15,7 @@ public abstract class Personagem {
 
     @Override
     public String toString() {
-        return String.format("Personagem {nome = %s, tipo = %s, inteligencia = %d, forca = %d, vigor = %d, resistencia = %d, destreza = %d, dano ataque = %.2f }", getNome(), getTipo(), getInteligencia(), getForca(), getVigor(), getResistencia(),getDestreza(), getDanoAtaque());
+        return String.format("Personagem { nome = %s, tipo = %s, inteligencia = %d, forca = %d, vigor = %d, resistencia = %d, destreza = %d, dano ataque = %.2f }", getNome(), getTipo(), getInteligencia(), getForca(), getVigor(), getResistencia(),getDestreza(), getDanoAtaque());
     }
 
     public Personagem(String nome, TipoPersonagem tipo, int inteligencia, int forca, int vigor, int resistencia, int destreza) {
