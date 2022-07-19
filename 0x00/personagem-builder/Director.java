@@ -1,6 +1,6 @@
 public class Director {
 
-    void buildGuerreiro(Builder builder){
+    public void buildGuerreiro(Builder builder){
         builder.setNome("Guerreiro");
         builder.setInteligencia(1);
         builder.setForca(8);
@@ -8,7 +8,7 @@ public class Director {
         builder.setResistencia(10);
         builder.setDestreza(6);
     }
-    void buildLadrao(Builder builder){
+    public void buildLadrao(Builder builder){
         builder.setNome("Ladrao");
         builder.setInteligencia(2);
         builder.setForca(6);
@@ -16,7 +16,7 @@ public class Director {
         builder.setResistencia(5);
         builder.setDestreza(10);
     }
-    void buildMago(Builder builder){
+    public void buildMago(Builder builder){
         builder.setNome("Mago");
         builder.setInteligencia(10);
         builder.setForca(2);
