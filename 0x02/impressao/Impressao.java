@@ -8,7 +8,10 @@ public class Impressao {
     private int paginasPretoBranco;
 
     private boolean ehFrenteVerso;
-    private double valorColoridasFrenteVerso, valorPretoBrancoFrenteVerso, valorColoridasFrenteApenas, valorPretoBrancoFrenteApenas;
+    private double valorColoridasFrenteVerso;
+    private double valorPretoBrancoFrenteVerso;
+    private double valorColoridasFrenteApenas;
+    private double valorPretoBrancoFrenteApenas;
 
 
     public Impressao(TamanhoImpressao tamanho, int paginasTotais, int paginasColoridas, boolean ehFrenteVerso){
