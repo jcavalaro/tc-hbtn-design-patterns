@@ -1,0 +1,23 @@
+    • O que é Arquitetura Hexagonal e por quem ela foi criada ?
+      Proposto por Alistair Cockburn. A ideia é construir sistemas que favorecem reusabilidade de código, alta coesão, baixo acoplamento, independência de tecnologia e que são mais fáceis de serem testados.
+      
+    • Uma Arquitetura Hexagonal divide as classes de um sistema em dois grupos principais:
+      Classes de domínio, isto é, diretamente relacionadas com o negócio do sistema.
+      Classes relacionadas com infraestrutura, tecnologias e responsáveis pela integração com sistemas externos (tais como bancos de dados).
+      
+    • Quais são os benefícios e recursos que Arquitetura Hexagonal fornece?
+      A lógica da nossa aplicação fica totalmente independente de qualquer coisa, a grande vantagem já começa aí, nos testes. Para testarmos a camada de domínio, ou seja, a lógica da aplicação, não teremos dependência com nada, podemos fazer testes isolados e sem nenhuma interferência de outra camada.
+      Mais:
+Solução de Serviços Externos Independentes,
+      Possibilita adiar algumas decisões técnicas,
+      Criação e substituição de adaptadores,
+      Fácil de testar a aplicação,
+      Tecnologias fáceis de trocar.
+      
+      
+    • Quais as diferenças entre Arquitetura Hexagonal e Clean Architecture ?
+      É outra forma de representar a hierarquia entre as camadas, mas mantendo as premissas de isolamento e inversão de dependências.
+      
+    • Na sua opinião, a Arquitetura Hexagonal pode ser utilizada em qualquer tipo de projeto ? Quais informações devem ser consideradas antes de desenvolver sistemas usando esse padrão de projeto ?
+      Não acredito que vale utilizar em todo projeto. Em sistemas muito pequenos ou que dificilmente irá gerar trabalho de manutenção/novas features talvez não seja tão interessante o custo-benefício de sua implementação, já que demanda um alto grau de esforço de desenvolvimento.
+
